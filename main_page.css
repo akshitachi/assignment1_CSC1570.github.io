@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar-items {
+  list-style: none;
+  margin: 0;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nimbus Sans L', sans-serif;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #B49D69;
+}
+
+.main-events {
+  padding-right: 30%;
+  padding-left: 8%;
+}
+
+.main-events-a {
+  color: #B49D69;
+}
+
+.home-a {
+  color: #B49D69;
+
+}
+
+li {
+  margin: 10px;
+}
+
+.container1 {
+  background-image: url("images/images/image3.png");
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 43px;
+  text-align: center;
+  letter-spacing: 17px;
+  line-height: 70px;
+  font-family: 'Poliphili', serif;
+}
+
+.row {
+  display: flex;
+  padding: 60px;
+  justify-content: space-between;
+}
+
+.flower-img {
+  position: relative;
+}
+
+.flower1-text {
+  position: absolute;
+  top: 15%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: 'Swiss 721 Medium', sans-serif;
+}
+
+.flower2-text {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+
+.flower-button {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  font-size: 18 px;
+}
+
+.padder {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
+.image1 {
+  height: 580px;
+
+}
+
+.custom-quote {
+  position: relative;
+  font-size: 1.5em;
+  display: inline-block;
+  align-items: center;
+}
+
+
+.custom-quote::after {
+  content: '\201D';
+  right: 0;
+  color: #333;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+}
