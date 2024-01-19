@@ -128,14 +128,6 @@ li {
 
 }
 
-.custom-quote {
-  position: relative;
-  font-size: 1.5em;
-  display: inline-block;
-  align-items: center;
-}
-
-
 .custom-quote::after {
   content: '\201D';
   right: 0;
@@ -143,4 +135,29 @@ li {
   font-size: 55px;
   font-weight: bold;
   text-align: center;
+}
+
+.column{
+  left: 50%;
+  text-align: center;
+}
+
+.row2 {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
+.quote-text{
+font-family: 'Poliphili', sans-serif;
+font-size: 27px;
+line-height: 18px;
+letter-spacing: 2px;
+}
+
+.arrow{
+  color:#B49D69;
+  font-size: 35px;
+  font-weight: normal;
 }
